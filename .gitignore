@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+.next/                # for Next.js
+.vite/                # for Vite
+storybook-static/     # for Storybook builds
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
