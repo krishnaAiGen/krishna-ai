@@ -91,18 +91,6 @@ const Experience = () => {
                       <MapPin className="mr-2" size={16} />
                       <span>{exp.location}</span>
                     </div>
-                    {exp.previousDuration && (
-                      <>
-                        <div className="flex items-center text-gray-600 dark:text-gray-300">
-                          <Calendar className="mr-2" size={16} />
-                          <span>{exp.previousDuration}</span>
-                        </div>
-                        <div className="flex items-center text-gray-600 dark:text-gray-300">
-                          <MapPin className="mr-2" size={16} />
-                          <span>{exp.previousLocation}</span>
-                        </div>
-                      </>
-                    )}
                   </div>
                 </div>
               </div>
